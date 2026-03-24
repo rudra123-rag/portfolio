@@ -27,7 +27,7 @@ const AIChat: React.FC = () => {
 
   // Function to send a message to the backend
   const sendMessageToGemini = async (message: string): Promise<string> => {
-    const backendUrl = 'http://localhost:8000'; // Define your backend URL here
+    const backendUrl = 'https://back-6-6xpc.onrender.com'; // Define your backend URL here
 
     try {
       const response = await fetch(`${backendUrl}/chat`, {

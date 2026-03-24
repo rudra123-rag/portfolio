@@ -1,5 +1,0 @@
-fastapi
-uvicorn
-redis-om
-google-generativeai
-python-dotenv

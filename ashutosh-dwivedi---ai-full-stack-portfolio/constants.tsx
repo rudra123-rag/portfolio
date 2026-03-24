@@ -12,9 +12,10 @@ import {
 import { Experience, Project, Skill, Education } from './types';
 
 export const PROFILE = {
-  name: "Ashutosh Kumar Dwivedi",
+  name: "Ashutosh Kumar Dwivedi", // Define your backend URL here
+  imageUrl:"https://back-6-6xpc.onrender.com/download/1658366174563.jpeg",
   role: "Python Developer & AI Engineer",
-  bio: "Innovative Full Stack Developer with a background in mechanical engineering and expertise in Python backend development and modern JavaScript frontends. Specialized in building high-performance RESTful APIs with FastAPI and Flask, and deeply focused on integrating cutting-edge AI workflows like RAG and autonomous agent pipelines (AutoGen).",
+  bio: "Innovative Full Stack Developer with a background in mechanical engineering and expertise in Python backend development and modern JavaScript frontends. Specialized in building high-performance RESTful APIs with FastAPI and Flask, and deeply focused on integrating cutting-edge AI workflows like RAG and autonomous agent pipelines (LangChain,CrewAI,AutoGen).",
   location: "Raebareli, UP, India",
   social: {
     github: "https://github.com/rudra123-rag",
